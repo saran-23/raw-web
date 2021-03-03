@@ -1,0 +1,26 @@
+.nav{
+    margin-left: 30%;
+}
+.nav  a{
+    padding:10px;
+    text-decoration:none;
+    font-family: sans-serif;
+    color:#000;
+    font-weight: bold;
+}
+.nav-link {
+    float:left;
+}
+.nav-link::after {
+    content:'';
+    display:block;
+    background:#000;
+    width:0;
+    height:2px;
+    transition: 0.5s;
+}
+.nav-link:hover::after{
+    width:100%;
+
+}
+
